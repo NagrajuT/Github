@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype"); }
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("../fonts/Poppins/Poppins-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "Lato-Light";
+  src: url("../fonts/Lato/Lato-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../fonts/Lato/Lato-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Font-Ions";
+  src: url("../fonts/font-ions/ionicons.eot");
+  src: url("../fonts/font-ions/ionicons.woff") format("woff");
+  src: url("../fonts/font-ions/ionicons.ttf") format("ttf"); }
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: 15px; }
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px !important;
+    width: 100%; } }
+body {
+  font-family: "Lato-Regular", "Poppins-Regular", sans-serif !important; }
+
+.navbar-menu {
+  padding: 25px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 333;
+  min-height: 50px; }
+  .navbar-menu .logo {
+    float: left;
+    padding: 10px 20px; }
+    .navbar-menu .logo a {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: Poppins-Regular, Lato-Regular, sans-serif;
+      font-size: 24px;
+      font-weight: 700; }
+  .navbar-menu ul.navbar-list {
+    float: left;
+    display: inline-flex;
+    margin-right: 30px; }
+    .navbar-menu ul.navbar-list li {
+      float: left; }
+      .navbar-menu ul.navbar-list li a {
+        padding: 10px 20px;
+        display: block;
+        text-decoration: none; }
+
+/*# sourceMappingURL=header.css.map */
